@@ -1,4 +1,4 @@
-### 예제 실습 코드만 작성 / 강의 정리는 블로그에 작성 <a href="https://velog.io/@changi_gg/posts"></a>
+### 예제 실습 코드만 작성 / 강의 정리는 블로그에 작성 <a href="https://velog.io/@changi_gg/posts">velog</a>
 ### 2024.12.24
 #### 1. 프로젝트 생성
 #### 2. 회원 도메인 실행과 테스트 완료 
