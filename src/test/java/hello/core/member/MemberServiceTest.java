@@ -1,15 +1,23 @@
 package hello.core.member;
 
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
+
+import hello.core.AppConfig;
 
 @SpringBootTest
 public class MemberServiceTest {
 
+    MemberService memberService ;
+    
+    @BeforeEach
+    public void beforeEach() {    	
+    	AppConfig appConfig = new AppConfig();
+    	memberService = appConfig.memberService();
+    }
 
-
-    MemberService memberService = new MemberServiceImpl();
     @Test
     void join(){
         // given
