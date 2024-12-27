@@ -12,3 +12,4 @@
 ### 2024.12.27
 #### 1. AppConfig 리팩토링 완료
 #### 2. 할인정책 discountPolicy 의존성 지키기 
+#### 3. ApplicationContext -> 스프링으로 전환
